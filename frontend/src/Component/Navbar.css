@@ -1,7 +1,5 @@
 
-/* =========================
-   WORKSPHERE NAVBAR
-========================= */
+
 
 .ws-navbar {
   width: 100%;
@@ -19,7 +17,7 @@
   z-index: 20;
 }
 
-/* PAGE HEADING */
+
 
 .ws-navbar-heading {
   border-left: 3px solid #dce5f5;
@@ -40,7 +38,6 @@
   margin: 6px 0 0;
 }
 
-/* NAVBAR ACTIONS */
 
 .ws-navbar-actions {
   display: flex;
@@ -48,7 +45,7 @@
   gap: 22px;
 }
 
-/* SEARCH */
+
 
 .ws-search {
   width: 310px;
@@ -83,7 +80,7 @@
   color: #8a96aa;
 }
 
-/* NOTIFICATION */
+
 
 .ws-notification-wrapper,
 .ws-profile-wrapper {
@@ -124,7 +121,7 @@
   border: 2px solid white;
 }
 
-/* PROFILE */
+
 
 .ws-profile-btn {
   display: flex;
@@ -172,7 +169,7 @@
   transform: rotate(180deg);
 }
 
-/* DROPDOWN COMMON */
+
 
 .ws-profile-dropdown,
 .ws-notification-dropdown {
@@ -198,7 +195,7 @@
   }
 }
 
-/* PROFILE DROPDOWN */
+
 
 .ws-profile-dropdown {
   width: 220px;
@@ -240,7 +237,7 @@
   background: #fff1f1;
 }
 
-/* NOTIFICATION DROPDOWN */
+
 
 .ws-notification-dropdown {
   width: 320px;
@@ -320,7 +317,7 @@
   margin-top: 6px;
 }
 
-/* RESPONSIVE */
+
 
 @media (max-width: 1100px) {
   .ws-navbar {
