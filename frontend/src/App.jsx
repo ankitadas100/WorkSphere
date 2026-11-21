@@ -1,37 +1,24 @@
-
-
-// import Sidebar from "./components/Sidebar";
-// import Navbar from "./components/Navbar";
-// import Dashboard from "./pages/Dashboard";
-
+import { Routes, Route } from "react-router-dom";
+import Navbar from "./Component/Navbar";
+import Sidebar from "./Component/Sidebar";
 import "./App.css";
 
 function App() {
   return (
-    <div >
-      
+    <div className="app-container">
+      <Navbar />
+      <Sidebar/>
+
+      <main className="main-content">
+        <Routes>
+          <Route
+            path="/"
+            element={<h1>WorkSphere Dashboard</h1>}
+          />
+        </Routes>
+      </main>
     </div>
   );
 }
+
 export default App;
-    // <div className="app-container">
-
-    //   {/* Sidebar */}
-    //   <Sidebar />
-
-    //   {/* Main Content */}
-    //   <main className="main-content">
-
-    //     {/* Navbar */}
-    //     <Navbar />
-
-    //     {/* Dashboard Page */}
-    //     <Dashboard />
-
-    //   </main>
-
-    // </div>
-  // );
-  
-
-
