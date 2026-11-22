@@ -1,12 +1,14 @@
 import { BriefcaseBusiness, LayoutDashboard, Users, Building2, CalendarCheck, Wallet, Settings, ChartColumnBig } from "lucide-react";
+import "./Sidebar.css"
 function Sidebar() {
     return (<>
-        <div>
+        <div className="sidebar">
 
             <div className="header">
-
-
-                <h1 className="Main-logo">  <BriefcaseBusiness />WorkSphere</h1>
+                <h1 className="Main-logo">
+                    <BriefcaseBusiness className="logo-icon" />
+                    WorkSphere
+                </h1>
             </div>
             <div className="description">Employee Management</div>
             <hr></hr>

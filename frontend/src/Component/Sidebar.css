@@ -1,0 +1,11 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.sidebar{
+    background-color: rgb(29, 109, 143);
+    color :white
+}
+.Main-logo{
+    background-color: orange;
+}
