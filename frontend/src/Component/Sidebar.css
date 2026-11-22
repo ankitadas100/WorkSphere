@@ -6,6 +6,10 @@
     background-color: rgb(29, 109, 143);
     color :white
 }
-.Main-logo{
-    background-color: orange;
+.logo-icon{
+    background-color: #f59e0b;
+    width: 46px;
+    height: 26px;
+    border-radius: 4px;
+    color:black
 }
