@@ -1,11 +1,11 @@
-import { TbLayoutDashboard } from "react-icons/tb";
+import { LayoutDashboard, Users, Building2, CalendarCheck, Wallet, Settings ,ChartColumnBig} from "lucide-react";
 function Sidebar() {
     return (<>
         <div>
 
             <div className="header">
                 <div className="logo">
-                    <TbLayoutDashboard />
+                    <LayoutDashboard />
                 </div>
 
                 <h1>WorkSphere</h1>
@@ -14,13 +14,14 @@ function Sidebar() {
             <hr></hr>
             <div className="list">MAIN MENU</div>
             <ui>
-                <li>Dashboard</li>
-                <li>Employees</li>
-                <li>Departments</li>
-                <li>Attendance</li>
-                <li>Leave Management</li>
-                <li>Payroll</li>
-                <li>Reports</li>
+                    
+                <li className="logo"><LayoutDashboard />Dashboard</li>
+                <li className="logo"><Users />Employees</li>
+                <li className="logo"> <Building2/>Departments</li>
+                <li className="logo"><CalendarCheck/>Attendance</li>
+                <li className="logo"><Wallet/>Leave Management</li>
+                <li className="logo"><Settings/>Payroll</li>
+                <li className="logo"><ChartColumnBig/>Reports</li>
             </ui>
 
         </div>
