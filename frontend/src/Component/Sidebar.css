@@ -18,3 +18,9 @@
     height: 1px;
     color:white
 }
+.description{
+    margin-left:60px;
+}
+.sidebar{
+    gap:10px;
+}
