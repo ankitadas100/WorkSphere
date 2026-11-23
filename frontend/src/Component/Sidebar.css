@@ -1,26 +1,92 @@
-*{
-    margin:0px;
-    padding:0px;
+.sidebar {
+    width: 250px;
+    min-height: 100vh;
+    background: #17243a;
+    color: white;
+    padding: 22px 16px;
+    display: flex;
+    flex-direction: column;
 }
-.sidebar{
-    background-color: rgb(29, 109, 143);
-    color :white
+
+/* Logo section */
+.sidebar-header {
+    padding: 5px 10px 25px;
+    border-bottom: 1px solid #2d3b50;
 }
-.logo-icon{
-    background-color: #f59e0b;
-    width: 46px;
-    height: 26px;
-    border-radius: 4px;
-    color:black
+
+.Main-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
 }
-.line{
-    width:300px;
-    height: 1px;
-    color:white
+
+.logo-icon {
+    color: #f59e0b;
+    width: 25px;
+    height: 25px;
 }
-.description{
-    margin-left:60px;
+
+/* Menu section */
+.sidebar-menu {
+    margin-top: 25px;
 }
-.sidebar{
-    gap:10px;
+
+.menu-title {
+    font-size: 11px;
+    color: #94a3b8;
+    letter-spacing: 1.2px;
+    margin-bottom: 12px;
+    padding-left: 10px;
+}
+
+/* Sidebar links */
+.sidebar-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 11px 12px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    color: #cbd5e1;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.2s ease;
+}
+
+/* Hover effect */
+.sidebar-link:hover {
+    background: #24364f;
+    color: white;
+}
+
+/* Active link */
+.sidebar-link.active {
+    background: #2f4e79;
+    color: white;
+}
+
+/* Icon */
+.sidebar-link svg {
+    width: 19px;
+    height: 19px;
+}
+
+/* System section */
+.sidebar-bottom {
+    margin-top: auto;
+    padding-top: 20px;
+    border-top: 1px solid #2d3b50;
+}
+
+/* Logout */
+.logout-link {
+    color: #f87171;
+}
+
+.logout-link:hover {
+    background: #3b2630;
+    color: #fca5a5;
 }
