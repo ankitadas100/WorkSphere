@@ -11,7 +11,7 @@ function Sidebar() {
                 </h1>
             </div>
             <div className="description">Employee Management</div>
-            <hr></hr>
+            <hr className="line"></hr>
             <div className="list">MAIN MENU</div>
             <ui>
 
