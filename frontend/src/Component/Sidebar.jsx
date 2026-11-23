@@ -19,7 +19,7 @@ function Sidebar() {
   return (
     <div className="sidebar">
 
-      {/* Logo */}
+      
       <div className="sidebar-header">
         <h1 className="Main-logo">
           <BriefcaseBusiness className="logo-icon" />
@@ -27,7 +27,7 @@ function Sidebar() {
         </h1>
       </div>
 
-      {/* Main Menu */}
+     
       <div className="sidebar-menu">
         <p className="menu-title">MAIN MENU</p>
 
@@ -67,7 +67,7 @@ function Sidebar() {
         </NavLink>
       </div>
 
-      {/* System Menu */}
+     
       <div className="sidebar-bottom">
         <p className="menu-title">SYSTEM</p>
 
