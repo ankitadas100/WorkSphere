@@ -10,6 +10,9 @@ function Dashboard(){
                     <h2>248</h2>
                     <p>+12 this month</p>
             </div>
+            <div className="dashboard-card">
+                <h3>present Today</h3>
+            </div>
         </div>
     </div>
 
