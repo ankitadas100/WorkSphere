@@ -44,3 +44,7 @@
     color: #17243a;
     margin: 15px 0 8px;
 }
+.dashboard-card p {
+    font-size: 12px;
+    color: #059669;
+}
