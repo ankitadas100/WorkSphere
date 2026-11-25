@@ -18,6 +18,7 @@ function Dashboard(){
             <div className="dashboard-card">
                  <h3>Departments</h3>
                     <h2>12</h2>
+                     <p>Across organization</p>
             </div>
         </div>
     </div>
