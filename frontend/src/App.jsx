@@ -9,16 +9,15 @@ function App() {
   return (
     <div className="app-container">
 
-      {/* Sidebar */}
+    
       <Sidebar />
 
-      {/* Main Content */}
       <div className="main-content">
 
-        {/* Navbar */}
+        
         <Navbar />
 
-        {/* Pages */}
+        
         <main className="page-content">
           <Routes>
             <Route path="/" element={<Dashboard />} />
