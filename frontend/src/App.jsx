@@ -1,22 +1,31 @@
+
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./Component/Navbar";
 import Sidebar from "./Component/Sidebar";
+import Dashboard from "./pages/Dashboard";
 import "./App.css";
 
 function App() {
   return (
     <div className="app-container">
-      <Navbar />
-      <Sidebar/>
 
-      <main className="main-content">
-        <Routes>
-          <Route
-            path="/"
-            element={<h1>WorkSphere Dashboard</h1>}
-          />
-        </Routes>
-      </main>
+      {/* Sidebar */}
+      <Sidebar />
+
+      {/* Main Content */}
+      <div className="main-content">
+
+        {/* Navbar */}
+        <Navbar />
+
+        {/* Pages */}
+        <main className="page-content">
+          <Routes>
+            <Route path="/" element={<Dashboard />} />
+          </Routes>
+        </main>
+
+      </div>
     </div>
   );
 }
