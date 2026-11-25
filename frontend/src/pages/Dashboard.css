@@ -48,3 +48,8 @@
     font-size: 12px;
     color: #059669;
 }
+@media (max-width: 900px) {
+    .card {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
