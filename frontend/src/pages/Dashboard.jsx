@@ -12,6 +12,12 @@ function Dashboard(){
             </div>
             <div className="dashboard-card">
                 <h3>present Today</h3>
+                 <h2>18</h2>
+                    <p>Currently on leave</p>
+            </div>
+            <div className="dashboard-card">
+                 <h3>Departments</h3>
+                    <h2>12</h2>
             </div>
         </div>
     </div>
