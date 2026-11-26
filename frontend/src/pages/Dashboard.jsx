@@ -1,3 +1,4 @@
+import EmployeeCharts from "./EmployeeCharts";
 import "./Dashboard.css"
 import {
   Users,
@@ -31,6 +32,8 @@ function Dashboard(){
                      <p>Across organization</p>
             </div>
         </div>
+         <EmployeeCharts />
+
     </div>
 
     </>)
