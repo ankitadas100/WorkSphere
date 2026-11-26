@@ -2,3 +2,13 @@
     margin:0px;
     padding:0px;
 }
+.employee-chart {
+    width: 100%;
+    background: #ffffff;
+    padding: 25px;
+    margin-top: 30px;
+    border: 1px solid #e5eaf1;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    box-sizing: border-box;
+}
