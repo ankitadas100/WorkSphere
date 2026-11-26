@@ -10,6 +10,10 @@ function EmployeeCharts(){
     { day: "Sun", employees: 150 }
   ];
   return(<>
+  <div className="employee-chart">
+    <h2 className="employee-heading">Employee Overview</h2>
+    <p className="employee-des">Weekly attendance report</p>
+  </div>
   </>)
 }
 export default EmployeeCharts;
