@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Navbar from "./Component/Navbar";
 import Sidebar from "./Component/Sidebar";
 import Dashboard from "./pages/Dashboard";
+import EmployeeCharts from "./pages/EmployeeCharts";
 import "./App.css";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <main className="page-content">
           <Routes>
             <Route path="/" element={<Dashboard />} />
+            <Route path="EmployeeCharts" element={< EmployeeCharts />}/>
           </Routes>
         </main>
 
