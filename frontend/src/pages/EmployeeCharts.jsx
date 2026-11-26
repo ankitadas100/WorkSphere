@@ -1,3 +1,12 @@
+import {
+  BarChart,
+  Bar,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  ResponsiveContainer
+} from "recharts";
 import "./EmployeeCharts.css"
 function EmployeeCharts(){
  const attendanceData = [
@@ -13,6 +22,25 @@ function EmployeeCharts(){
   <div className="employee-chart">
     <h2 className="employee-heading">Employee Overview</h2>
     <p className="employee-des">Weekly attendance report</p>
+       <ResponsiveContainer width="100%" height={300}>
+        <BarChart data={attendanceData}>
+
+          <CartesianGrid strokeDasharray="3 3" />
+
+          <XAxis dataKey="day" />
+
+          <YAxis />
+
+          <Tooltip />
+
+          <Bar
+            dataKey="employees"
+            fill="#3b82f6"
+            radius={[6, 6, 0, 0]}
+          />
+
+        </BarChart>
+      </ResponsiveContainer>
   </div>
   </>)
 }
