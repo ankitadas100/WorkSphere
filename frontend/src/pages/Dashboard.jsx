@@ -1,4 +1,10 @@
 import "./Dashboard.css"
+import {
+  Users,
+  UserCheck,
+  CalendarDays,
+  Building2
+} from "lucide-react";
 function Dashboard(){
     return(<>
     <div className="dashboard">
