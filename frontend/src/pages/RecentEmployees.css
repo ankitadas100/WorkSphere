@@ -6,3 +6,18 @@
 .rec emt-employees {
     background: #ffffff;
 }
+.rec emt-employees {
+    padding: 25px;
+    margin-top: 30px;
+    border: 1px solid #e5eaf1;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    overflow-x: auto;
+}
+
+.employees-heading {
+    font-size: 20px;
+    font-weight: 600;
+    color: #17243a;
+    margin-bottom: 8px;
+}
