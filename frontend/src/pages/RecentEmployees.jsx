@@ -39,6 +39,20 @@ function RecentEmployees() {
                         <th>Status</th>
                     </tr>
                 </thead>
+                  <tbody>
+        {employees.map((employee) => (
+            <tr key={employee.id}>
+                <td>{employee.id}</td>
+                <td>{employee.name}</td>
+                <td>{employee.department}</td>
+                <td>
+                    <span className={`status ${employee.status === "Active" ? "active-status" : "leave-status"}`}>
+                        {employee.status}
+                    </span>
+                </td>
+            </tr>
+        ))}
+    </tbody>
             </table>
 
         </div>
