@@ -7,6 +7,18 @@ function RecentEmployees(){
             department: "IT",
             status: "Active"
         },
+          {
+            id: "EMP002",
+            name: "Priya Das",
+            department: "HR",
+            status: "Active"
+        },
+        {
+            id: "EMP003",
+            name: "Arjun Roy",
+            department: "Finance",
+            status: "On Leave"
+        },
     ]
     return (<>
     </>)
