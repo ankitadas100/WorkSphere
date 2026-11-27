@@ -19,6 +19,12 @@ function RecentEmployees(){
             department: "Finance",
             status: "On Leave"
         },
+         {
+            id: "EMP004",
+            name: "Sneha Paul",
+            department: "Marketing",
+            status: "Active"
+        }
     ]
     return (<>
     </>)
