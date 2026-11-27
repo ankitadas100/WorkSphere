@@ -1,5 +1,5 @@
 import "./RecentEmployees.css"
-function RecentEmployees(){
+function RecentEmployees() {
     const employees = [
         {
             id: "EMP001",
@@ -7,7 +7,7 @@ function RecentEmployees(){
             department: "IT",
             status: "Active"
         },
-          {
+        {
             id: "EMP002",
             name: "Priya Das",
             department: "HR",
@@ -19,7 +19,7 @@ function RecentEmployees(){
             department: "Finance",
             status: "On Leave"
         },
-         {
+        {
             id: "EMP004",
             name: "Sneha Paul",
             department: "Marketing",
@@ -30,6 +30,17 @@ function RecentEmployees(){
         <div className="recemt-employees">
             <h2 className="employees-heading">Recent Employees</h2>
             <p className="employees-des">Recently added employees to your organization</p>
+            <table className="employee-table">
+                <thead>
+                    <tr>
+                        <th>Employee ID</th>
+                        <th>Employee Name</th>
+                        <th>Department</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+            </table>
+
         </div>
     )
 }
