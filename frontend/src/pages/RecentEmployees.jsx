@@ -29,6 +29,7 @@ function RecentEmployees(){
     return (
         <div className="recemt-employees">
             <h2 className="employees-heading">Recent Employees</h2>
+            <p className="employees-des">Recently added employees to your organization</p>
         </div>
     )
 }
