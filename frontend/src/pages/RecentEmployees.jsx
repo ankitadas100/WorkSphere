@@ -26,7 +26,10 @@ function RecentEmployees(){
             status: "Active"
         }
     ]
-    return (<>
-    </>)
+    return (
+        <div className="recemt-employees">
+            <h2 className="employees-heading">Recent Employees</h2>
+        </div>
+    )
 }
 export default RecentEmployees;
