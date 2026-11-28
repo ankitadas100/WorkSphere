@@ -1,4 +1,5 @@
 import EmployeeCharts from "./EmployeeCharts";
+import RecentEmployees from "./RecentEmployees";
 import "./Dashboard.css"
 import {
   Users,
@@ -33,6 +34,7 @@ function Dashboard(){
             </div>
         </div>
          <EmployeeCharts />
+         <RecentEmployees />
 
     </div>
 
