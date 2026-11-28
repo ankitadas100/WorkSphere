@@ -39,3 +39,9 @@
     font-weight: 600;
     padding: 15px;
 }
+.employee-table td {
+    padding: 16px 15px;
+    font-size: 14px;
+    color: #334155;
+    border-bottom: 1px solid #e5eaf1;
+}
