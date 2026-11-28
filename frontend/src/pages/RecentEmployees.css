@@ -56,3 +56,12 @@
     font-size: 12px;
     font-weight: 600;
 }
+.active-status {
+    color: #059669;
+    background: #d1fae5;
+}
+
+.leave-status {
+    color: #d97706;
+    background: #fef3c7;
+}
