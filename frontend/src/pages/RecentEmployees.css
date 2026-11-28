@@ -32,3 +32,10 @@
     border-collapse: collapse;
     text-align: left;
 }
+.employee-table th {
+    background: #f5f7fb;
+    color: #64748b;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 15px;
+}
