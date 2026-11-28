@@ -45,3 +45,14 @@
     color: #334155;
     border-bottom: 1px solid #e5eaf1;
 }
+.employee-table tbody tr:hover {
+    background: #f8fafc;
+}
+
+.status {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
